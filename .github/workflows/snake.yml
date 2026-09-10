@@ -20,18 +20,9 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
       - name: Strip progress bar from snake SVG
-        id: strip
-        continue-on-error: true
         run: |
-          {
-          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE";
-          echo "PWD=$(pwd)";
-          echo '--- workspace root ---'; ls -la "$GITHUB_WORKSPACE";
-          echo '--- dist ---'; ls -la "$GITHUB_WORKSPACE/dist";
-          echo '--- python ---'; which python3;
-          echo '--- run strip ---'; python3 "$GITHUB_WORKSPACE/.github/strip-progress.py";
-          echo "PY_EXIT=$?";
-          } > "$GITHUB_WORKSPACE/dist/diag.txt" 2>&1
+          sudo chown -R "$USER:$USER" "$GITHUB_WORKSPACE/dist"
+          python3 "$GITHUB_WORKSPACE/.github/strip-progress.py"
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
