@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - uses: Platane/snk@v3
+      - uses: Platane/snk@v4
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -23,17 +23,15 @@ jobs:
         id: strip
         continue-on-error: true
         run: |
-          echo '=== pwd ===' > dist/diag.txt
-          pwd >> dist/diag.txt 2>&1
-          echo '=== .github ===' >> dist/diag.txt
-          ls -la .github/ >> dist/diag.txt 2>&1
-          echo '=== dist ===' >> dist/diag.txt
-          ls -la dist/ >> dist/diag.txt 2>&1
-          echo '=== python3 ===' >> dist/diag.txt
-          which python3 >> dist/diag.txt 2>&1
-          echo '=== run strip script ===' >> dist/diag.txt
-          python3 .github/strip-progress.py >> dist/diag.txt 2>&1 || echo "PY_EXIT=$?" >> dist/diag.txt
-          echo '=== done ===' >> dist/diag.txt
+          {
+          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE";
+          echo "PWD=$(pwd)";
+          echo '--- workspace root ---'; ls -la "$GITHUB_WORKSPACE";
+          echo '--- dist ---'; ls -la "$GITHUB_WORKSPACE/dist";
+          echo '--- python ---'; which python3;
+          echo '--- run strip ---'; python3 "$GITHUB_WORKSPACE/.github/strip-progress.py";
+          echo "PY_EXIT=$?";
+          } > "$GITHUB_WORKSPACE/dist/diag.txt" 2>&1
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
