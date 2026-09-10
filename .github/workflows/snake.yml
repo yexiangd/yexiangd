@@ -20,19 +20,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
       - name: Strip progress bar from snake SVG
-        run: |
-          python3 - <<'PYEOF'
-          import re, glob
-          for p in glob.glob('dist/*.svg'):
-              svg = open(p).read()
-              # remove the progress-bar rects (class "u")
-              svg, n = re.subn(r'<rect\s+class="u\b[^>]*>', '', svg)
-              # tighten the viewBox now the bar is gone
-              svg = re.sub(r'viewBox="[^"]*"', 'viewBox="-16 -24 880 143"', svg, count=1)
-              svg = re.sub(r'height="192"', 'height="143"', svg, count=1)
-              open(p, 'w').write(svg)
-              print(p, 'stripped rects:', n)
-          PYEOF
+        run: perl -0777 -pi -e 's/<rect\s+class="u\b[^>]*>//g; s/(<svg[^>]*?)viewBox="[^"]*"/$1viewBox="-16 -24 880 143"/; s/(<svg[^>]*?)height="192"/$1height="143"/' dist/*.svg
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
