@@ -20,7 +20,7 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
       - name: Strip progress bar from snake SVG
-        run: perl -0777 -pi -e 's/<rect[^>]*class="u[^"]*"[^>]*>//g; s/(<svg[^>]*?)viewBox="[^"]*"/$1viewBox="-16 -24 880 143"/; s/(<svg[^>]*?)height="192"/$1height="143"/' dist/*.svg
+        run: python3 .github/strip-progress.py
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
