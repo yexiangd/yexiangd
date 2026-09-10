@@ -1,6 +1,6 @@
 # Ye Xiang
 
-**AI infrastructure** — LLM apps, RAG systems, agents, model serving, MLOps on Kubernetes.
+![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2F81F7&width=600&lines=AI+infrastructure;LLM+apps;RAG+systems;AI+agents;model+serving;MLOps+on+Kubernetes)
 
 
 ---
