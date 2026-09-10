@@ -22,7 +22,18 @@ jobs:
       - name: Strip progress bar from snake SVG
         id: strip
         continue-on-error: true
-        run: python3 .github/strip-progress.py
+        run: |
+          echo '=== pwd ===' > dist/diag.txt
+          pwd >> dist/diag.txt 2>&1
+          echo '=== .github ===' >> dist/diag.txt
+          ls -la .github/ >> dist/diag.txt 2>&1
+          echo '=== dist ===' >> dist/diag.txt
+          ls -la dist/ >> dist/diag.txt 2>&1
+          echo '=== python3 ===' >> dist/diag.txt
+          which python3 >> dist/diag.txt 2>&1
+          echo '=== run strip script ===' >> dist/diag.txt
+          python3 .github/strip-progress.py >> dist/diag.txt 2>&1 || echo "PY_EXIT=$?" >> dist/diag.txt
+          echo '=== done ===' >> dist/diag.txt
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
