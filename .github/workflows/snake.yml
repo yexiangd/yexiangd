@@ -20,6 +20,8 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
       - name: Strip progress bar from snake SVG
+        id: strip
+        continue-on-error: true
         run: python3 .github/strip-progress.py
       - uses: crazy-max/ghaction-github-pages@v4
         with:
