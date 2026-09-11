@@ -18,6 +18,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Strip side panels (3D graph only)
+        run: python3 .github/strip-3d-panels.py
       - name: Commit & Push
         run: |
           git config user.name github-actions
