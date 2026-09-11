@@ -1,0 +1,5 @@
+cwd=/home/runner/work/yexiangd/yexiangd
+svg_files=dist/github-snake-dark.svg,dist/github-snake.svg
+dist/github-snake-dark.svg: u_before=12 removed=12 u_after=0
+dist/github-snake.svg: u_before=12 removed=12 u_after=0
+TOTAL_REMOVED=24
