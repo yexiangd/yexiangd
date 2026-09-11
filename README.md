@@ -8,9 +8,9 @@
 ---
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yexiangd/yexiangd/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yexiangd/yexiangd/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yexiangd/yexiangd/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yexiangd/yexiangd/main/profile-3d-contrib/profile-night-green.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yexiangd/yexiangd/main/profile-3d-contrib/profile-green-animate.svg" />
+  <img alt="3D GitHub contribution graph" src="https://raw.githubusercontent.com/yexiangd/yexiangd/main/profile-3d-contrib/profile-green-animate.svg" />
 </picture>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=120&section=footer)
