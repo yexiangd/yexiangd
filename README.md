@@ -1,6 +1,8 @@
-# Ye Xiang
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=200&section=header&text=Ye%20Xiang&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38)
 
-![](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=2F81F7&width=600&lines=AI+infrastructure;LLM+apps;RAG+systems;AI+agents;model+serving;MLOps+on+Kubernetes)
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2000&pause=500&color=2F81F7&center=true&vCenter=true&width=700&lines=AI+infrastructure;LLM+apps;RAG+systems;AI+agents;model+serving;MLOps+on+Kubernetes" alt="Typing SVG" />
+</div>
 
 
 ---
@@ -14,3 +16,4 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/yexiangd/yexiangd/output/github-snake.svg" />
 </picture>
 
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=120&section=footer)
