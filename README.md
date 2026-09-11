@@ -1,8 +1,5 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=200&section=header&text=Ye%20Xiang&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=38)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=220&section=header&text=Ye%20Xiang&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20infrastructure%20%C2%B7%20LLM%20apps%20%C2%B7%20RAG%20systems%20%C2%B7%20agents%20%C2%B7%20model%20serving&descSize=19&descAlignY=52)
 
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&duration=2000&pause=500&color=2F81F7&center=true&vCenter=true&width=700&lines=AI+infrastructure;LLM+apps;RAG+systems;AI+agents;model+serving;MLOps+on+Kubernetes" alt="Typing SVG" />
-</div>
 
 
 ---
