@@ -13,6 +13,6 @@
   <img alt="3D GitHub contribution graph" src="https://raw.githubusercontent.com/yexiangd/yexiangd/main/profile-3d-contrib/profile-green-animate.svg" />
 </picture>
 
-![Steamer Lane surf](https://raw.githubusercontent.com/yexiangd/yexiangd/main/surf.svg)
+[![Steamer Lane surf](https://raw.githubusercontent.com/yexiangd/yexiangd/main/surf.svg)](https://www.surfline.com/surf-report/steamer-lane/5842041f4e65fad6a7708805)
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=120&section=footer)
