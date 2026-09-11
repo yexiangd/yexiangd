@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=220&section=header&text=Ye%20Xiang&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20infrastructure%20%C2%B7%20LLM%20apps%20%C2%B7%20RAG%20systems%20%C2%B7%20agents%20%C2%B7%20model%20serving&descSize=19&descAlignY=52)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0B0F19,100:2563EB&height=220&section=header&text=Ye%20Xiang&fontSize=30&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=AI%20infrastructure%20%C2%B7%20LLM%20apps%20%C2%B7%20RAG%20systems%20%C2%B7%20agents%20%C2%B7%20model%20serving&descSize=19&descAlignY=52)
 
 
 
