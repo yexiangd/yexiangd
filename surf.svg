@@ -1,8 +1,8 @@
 <svg width="680" height="96" viewBox="0 0 680 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Steamer Lane surf forecast">
   <rect x="0.5" y="0.5" width="679" height="95" rx="12" fill="#0d1526" stroke="#1e293b"/>
   <text x="24" y="32" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" letter-spacing="2.5" fill="#7d8aa5">🏄 STEAMER LANE · SANTA CRUZ — TODAY’S SURF</text>
-  <text x="656" y="32" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#5b6b86">Updated Sep 10</text>
-  <text x="24" y="70" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="27" font-weight="700" fill="#ffffff">4–5 ft<tspan font-size="18" font-weight="400" fill="#7d8aa5"> @ 12s</tspan></text>
+  <text x="656" y="32" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#5b6b86">Updated Sep 11</text>
+  <text x="24" y="70" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="27" font-weight="700" fill="#ffffff">4 ft<tspan font-size="18" font-weight="400" fill="#7d8aa5"> @ 10s</tspan></text>
   <text x="300" y="68" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="17" fill="#b8c4d8">Wind 6 kt cross-shore</text>
   <text x="656" y="70" text-anchor="end" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" letter-spacing="3" fill="#fbbf24">★★★★★</text>
 </svg>
